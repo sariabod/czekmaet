@@ -1,0 +1,97 @@
+body {
+  background: url(../img/body-bg_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative; }
+
+header {
+  transition: all .2s;
+  padding: 15px; }
+
+.white, section#clients, section#tools {
+  background-color: white !important;
+  color: #263d4c; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding: 100px 0; }
+  section:nth-child(odd) {
+    background-color: #d94545; }
+  section:nth-child(even) {
+    background-color: #2a343d;
+    color: white; }
+  section#contact {
+    padding: 150px;
+    background-image: url(../img/img-map.jpg), linear-gradient(#d94545, #d94545);
+    /* W3C */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    font-size: 18px; }
+  section#solutions {
+    background-color: rgba(217, 69, 69, 0.9);
+    color: white; }
+    section#solutions .sub-head {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      font-size: 18px;
+      text-align: center;
+      border-bottom: 6px solid #c32828;
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-bottom: 15px; }
+    section#solutions ul {
+      margin-left: 40px; }
+      section#solutions ul li {
+        padding-right: 30px;
+        margin-bottom: 15px; }
+  section#clients .card {
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+    section#clients .card .sector {
+      display: inline-block;
+      background-color: #d94545;
+      color: white;
+      border-radius: 25px;
+      padding: 5px 7px; }
+  section#benefits {
+    color: white; }
+  section#intro {
+    background: none;
+    position: relative;
+    padding-bottom: 150px; }
+    section#intro .scroll-down {
+      position: absolute;
+      bottom: -110px;
+      left: 50%;
+      transform: translateX(-50%); }
+      section#intro .scroll-down a {
+        transition: color, .2s;
+        font-size: 3em;
+        font-weight: 100;
+        color: #d94545; }
+        section#intro .scroll-down a:hover {
+          color: white; }
+    section#intro h1 {
+      font-size: 90px;
+      text-align: left;
+      color: white; }
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+
+footer {
+  color: white;
+  background-color: #2a343d;
+  padding: 10px; }
+
+/*# sourceMappingURL=czekmaet.css.map */
