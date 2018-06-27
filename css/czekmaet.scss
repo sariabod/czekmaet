@@ -6,7 +6,7 @@ body{
    background-image:url(../img/body-bg_1.jpg);
    background-size: cover;
    background-attachment: fixed;
-   background-position: center center;
+   background-position: top center;
    position: relative;
 }
 header{
@@ -34,6 +34,7 @@ section{
       background-image: url(../img/img-map.jpg); /* W3C */
       background-size:cover;
       background-attachment: fixed;
+      background-position: bottom center;
       color:white;
       position: relative;
       font-size:18px;

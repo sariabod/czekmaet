@@ -1,5 +1,8 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  
+   body{
+      background-size:inherit;
+   }
    section{
       padding:50px 0;
       &#intro{
@@ -13,6 +16,7 @@
          }
       }
       &#contact{
+         background-size:inherit;
          .info-set{
             display:block;
             .info-sep{

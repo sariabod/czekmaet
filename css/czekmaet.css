@@ -2,7 +2,7 @@ body {
   background-image: url(../img/body-bg_1.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: top center;
   position: relative; }
 
 header {
@@ -28,6 +28,7 @@ section {
     /* W3C */
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom center;
     color: white;
     position: relative;
     font-size: 18px; }
@@ -105,18 +106,23 @@ footer {
   padding: 10px; }
 
 @media (max-width: 575.98px) {
+  body {
+    background-size: inherit; }
+
   section {
     padding: 50px 0; }
     section#intro h1 {
       font-size: 50px; }
     section#tools .text-center {
       margin-bottom: 40px; }
-    section#contact .info-set {
-      display: block; }
-      section#contact .info-set .info-sep {
-        display: none; }
-      section#contact .info-set .info-add {
+    section#contact {
+      background-size: inherit; }
+      section#contact .info-set {
         display: block; }
+        section#contact .info-set .info-sep {
+          display: none; }
+        section#contact .info-set .info-add {
+          display: block; }
 
   h1 {
     font-size: 50px; } }
