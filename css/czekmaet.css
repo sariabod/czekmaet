@@ -1,5 +1,5 @@
 body {
-  background: url(../img/body-bg_1.jpg);
+  background-image: url(../img/body-bg_1.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -24,7 +24,7 @@ section {
     color: white; }
   section#contact {
     padding: 150px 0;
-    background-image: url(../img/img-map.jpg), linear-gradient(#d94545, #d94545);
+    background-image: url(../img/img-map.jpg);
     /* W3C */
     background-size: cover;
     background-attachment: fixed;
