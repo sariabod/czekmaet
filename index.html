@@ -7,6 +7,14 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
       <link rel="stylesheet" href="css/animate.min.css">
       <link rel="stylesheet" href="css/czekmaet.css">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91292912-1"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];  
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-91292912-1');
+      </script>
       <title>Czekmaet, Inc.</title>
    </head>
    <body>
@@ -27,7 +35,7 @@
          <h1 class='mb-5'>Solutions</h1>
          <div class="container">
             <div class="row">
-                  <div class="col-lg">
+                  <div class="col-lg mb-3">
                      <div class='text-center'>
                         <img src="img/build.png" width='80' alt="">
                      </div>
@@ -41,7 +49,7 @@
                         </ul>
                      </p>
                   </div>
-                  <div class="col-lg">
+                  <div class="col-lg mb-3">
                      <div class='text-center'>
                         <img src="img/analyze.png" width='80' alt="">
                      </div>
@@ -55,7 +63,7 @@
                         </ul>
                      </p>
                   </div>
-                  <div class="col-lg">
+                  <div class="col-lg mb-3">
                      <div class='text-center'>
                         <img src="img/predict.png" width='80' alt="">
                      </div>
@@ -76,30 +84,30 @@
          <h1 class='mb-5'>Tools</h1>
          <div class="container">
             <div class="row mb-3 align-items-center">
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="http://hadoop.apache.org/" target="_blank"><img src="img/how/hadoop.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://spark.apache.org/" target="_blank"><img src="img/how/spark.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://www.python.org/" target="_blank"><img src="img/how/python.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://aws.amazon.com/" target="_blank"><img src="img/how/aws.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
             </div>
             <div class="row mb-3 align-items-center">
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://www.pentaho.com/marketplace/" target="_blank"><img src="img/how/pentaho.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://www.tensorflow.org/" target="_blank"><img src="img/how/tensorflow.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://framework.zend.com/" target="_blank"><img src="img/how/zend.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
-                  <div class="col text-center ">
+                  <div class="col-sm-6 col-md-3 col-lg-3 text-center image">
                      <a href="https://www.pytorch.org/" target="_blank"><img src="img/how/pytorch.jpg" height='70' class='img-fluid ' alt=""></a>
                   </div>
             </div>
@@ -120,7 +128,6 @@
       <section id='clients'>
          <h1 class='mb-5'>Clients</h1>
          <div class="container">
-            
                <div class="row equal">
                   <div class="col-lg-3 col-sm-6 text-center mb-4">
                      <div class="card">
@@ -201,17 +208,6 @@
                         <span class='sector'>Sector: Retail</span>
                      </div>
                   </div>
-                  <div class="col-lg-3 col-sm-6 text-center mb-4">
-                     <div class="card">
-                        <div style='height:80px;'>
-                           <img src="img/who/ico-shol.jpg" alt="" class='img-fluid'>
-                        </div>
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eos, ea dicta provident eaque molestias accusamus necessitatibus.
-                        </p>
-                        <span class='sector'>Sector: Textiles</span>
-                     </div>
-                  </div>
                </div>
             </div>
          </div>
@@ -221,7 +217,11 @@
          <div class="container">
             <div class="row justify-content-md-center text-center">
                <div class="col col-md-12">
-                  <i class="fas fa-mobile-alt"></i> <span>346.800.2898</span> | <i class="fas fa-envelope"></i> <span>info@czekmaet.com</span> | <i class="fas fa-map-marker-alt"></i> <span>31915 Rancho California Rd. #200-304 Temecula, CA 92591</span>
+                  <span class='info-set'><i class="fas fa-mobile-alt"></i> <span>346.800.2898</span> <span class='info-sep'>|</span> </span>  
+                  <span class='info-set'><i class="fas fa-envelope"></i> <span>info@czekmaet.com</span> <span class='info-sep'>|</span> </span>
+                  <span class='info-set'> 
+                     <span><span class='info-add'><i class="fas fa-map-marker-alt"></i> 31915 Rancho California Rd. #200-304</span> Temecula, CA 92591</span>
+                  </span>
                </div>
             </div>
          </div>

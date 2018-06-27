@@ -23,7 +23,7 @@ section {
     background-color: #2a343d;
     color: white; }
   section#contact {
-    padding: 150px;
+    padding: 150px 0;
     background-image: url(../img/img-map.jpg), linear-gradient(#d94545, #d94545);
     /* W3C */
     background-size: cover;
@@ -60,8 +60,18 @@ section {
       color: white;
       border-radius: 25px;
       padding: 5px 7px; }
+  section#tools .image {
+    padding: 20px; }
   section#benefits {
-    color: white; }
+    color: white;
+    padding: 150px 0;
+    background: url(../img/benefit-bg.jpg);
+    background-size: cover;
+    background-position: bottom center; }
+    section#benefits p {
+      font-size: 24px;
+      line-height: 39px;
+      text-align: center; }
   section#intro {
     background: none;
     position: relative;
@@ -93,5 +103,22 @@ footer {
   color: white;
   background-color: #2a343d;
   padding: 10px; }
+
+@media (max-width: 575.98px) {
+  section {
+    padding: 50px 0; }
+    section#intro h1 {
+      font-size: 50px; }
+    section#tools .text-center {
+      margin-bottom: 40px; }
+    section#contact .info-set {
+      display: block; }
+      section#contact .info-set .info-sep {
+        display: none; }
+      section#contact .info-set .info-add {
+        display: block; }
+
+  h1 {
+    font-size: 50px; } }
 
 /*# sourceMappingURL=czekmaet.css.map */

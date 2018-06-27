@@ -30,7 +30,7 @@ section{
       color:white;
    }
    &#contact{
-      padding:150px;
+      padding:150px 0;
       background-image: url(../img/img-map.jpg), linear-gradient($red, $red); /* W3C */
       background-size:cover;
       background-attachment: fixed;
@@ -78,9 +78,21 @@ section{
    }
    &#tools{
       @extend .white;
+      .image{
+         padding:20px;
+      }
    }
    &#benefits{
       color:white;
+      padding:150px 0;
+      background:url(../img/benefit-bg.jpg);
+      background-size:cover;
+      background-position: bottom center;
+      p{
+         font-size:24px;
+         line-height:39px;
+         text-align: center;
+      }
    }
    &#intro{
       background:none;

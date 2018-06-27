@@ -1,5 +1,32 @@
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {  
+   section{
+      padding:50px 0;
+      &#intro{
+         h1{
+            font-size:50px;
+         }
+      }
+      &#tools{
+         .text-center{
+            margin-bottom:40px;
+         }
+      }
+      &#contact{
+         .info-set{
+            display:block;
+            .info-sep{
+               display:none;
+            }
+            .info-add{
+               display:block;
+            }
+         }
+      }
+   }
+h1{font-size:50px;}
+
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {  }
