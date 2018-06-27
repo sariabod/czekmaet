@@ -121,7 +121,8 @@ h1 {
 footer {
   color: white;
   background-color: #2a343d;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 @media (max-width: 575.98px) {
   body {
