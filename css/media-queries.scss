@@ -1,7 +1,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  
    body{
-      background:url(../img/body-bg_1.jpg);
+      background:url(../img/bg-body.jpg);
    }
    section{
       padding:50px 0;
@@ -28,7 +28,7 @@
          }
       }
       &#contact{
-         background:url(../img/img-map.jpg);
+         background:url(../img/bg-contact.jpg);
          .info-set{
             display:block;
             .info-sep{

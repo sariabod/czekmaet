@@ -3,7 +3,7 @@ $grey: #2a343d;
 $darkblue: #263d4c;
 
 body{
-   background-image:url(../img/body-bg_1.jpg);
+   background-image:url(../img/bg-body.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -34,7 +34,7 @@ section{
    }
    &#contact{
       padding:150px 0;
-      background-image: url(../img/img-map.jpg);
+      background-image: url(../img/bg-contact.jpg);
       background-size:cover;
       background-attachment: fixed;
       background-position: bottom center;
@@ -108,7 +108,7 @@ section{
    &#benefits{
       color:white;
       padding:150px 0;
-      background:url(../img/benefit-bg.jpg);
+      background:url(../img/bg-benefit.jpg);
       background-size:cover;
       background-position: bottom center;
       p{
