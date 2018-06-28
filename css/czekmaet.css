@@ -1,8 +1,9 @@
 body {
   background-image: url(../img/body-bg_1.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: center center;
   position: relative;
   background-color: #020209; }
 
@@ -27,7 +28,6 @@ section {
   section#contact {
     padding: 150px 0;
     background-image: url(../img/img-map.jpg);
-    /* W3C */
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
@@ -127,7 +127,7 @@ footer {
 
 @media (max-width: 575.98px) {
   body {
-    background-size: inherit; }
+    background: url(../img/body-bg_1.jpg); }
 
   section {
     padding: 50px 0; }
@@ -135,8 +135,15 @@ footer {
       font-size: 50px; }
     section#tools .text-center {
       margin-bottom: 40px; }
+    section#solutions .sub-head {
+      border-bottom: 0; }
+    section#solutions .solution-item {
+      padding-bottom: 10px;
+      border-bottom: 6px solid #c32828; }
+      section#solutions .solution-item:last-child {
+        border-bottom: none; }
     section#contact {
-      background-size: inherit; }
+      background: url(../img/img-map.jpg); }
       section#contact .info-set {
         display: block; }
         section#contact .info-set .info-sep {

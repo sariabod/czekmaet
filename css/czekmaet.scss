@@ -4,9 +4,10 @@ $darkblue: #263d4c;
 
 body{
    background-image:url(../img/body-bg_1.jpg);
+   background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   background-position: top center;
+   background-position: center center;
    position: relative;
    background-color:#020209;
 }
@@ -33,7 +34,7 @@ section{
    }
    &#contact{
       padding:150px 0;
-      background-image: url(../img/img-map.jpg); /* W3C */
+      background-image: url(../img/img-map.jpg);
       background-size:cover;
       background-attachment: fixed;
       background-position: bottom center;

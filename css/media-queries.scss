@@ -1,7 +1,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  
    body{
-      background-size:inherit;
+      background:url(../img/body-bg_1.jpg);
    }
    section{
       padding:50px 0;
@@ -15,8 +15,20 @@
             margin-bottom:40px;
          }
       }
+      &#solutions{
+         .sub-head{
+            border-bottom:0;
+         }
+         .solution-item{
+            &:last-child{
+               border-bottom:none;
+            }
+            padding-bottom:10px;
+            border-bottom:6px solid darken($red,10%);
+         }
+      }
       &#contact{
-         background-size:inherit;
+         background:url(../img/img-map.jpg);
          .info-set{
             display:block;
             .info-sep{
@@ -28,8 +40,7 @@
          }
       }
    }
-h1{font-size:50px;}
-
+   h1{font-size:50px;}
 }
 
 // Small devices (landscape phones, 576px and up)
