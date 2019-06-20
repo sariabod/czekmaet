@@ -10,6 +10,13 @@
             font-size:50px;
          }
       }
+      &#clients{
+        .card{
+          .sector{
+            margin-bottom:10px;
+          }
+        }
+      }
       &#tools{
          .text-center{
             margin-bottom:40px;
@@ -50,7 +57,17 @@
 @media (min-width: 768px) and (max-width: 991.98px) {  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  section{
+    &#clients{
+      .card{
+        .sector{
+          margin-bottom:0px;
+        }
+      }
+    }
+  }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
